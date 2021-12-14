@@ -1,0 +1,28 @@
+---
+geometry: margin=2.8cm
+fontsize: 11pt
+title: "TBD"
+subtitle: > 
+  TBD
+author: "AUTHOR"
+indent: true
+numbersections: true
+output:
+  bookdown::pdf_document2:
+    includes:
+      in_header: ./preamble.tex
+    toc: false
+urlcolor: blue
+bibliography: sources.bib
+nocite: '@*'
+link-citations: true
+csl: apa.csl
+---
+
+\thispagestyle{empty}
+
+\newpage
+
+# Bibliography {-}
+
+<div id="refs"></div>
